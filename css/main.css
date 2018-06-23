@@ -46,9 +46,10 @@ html {
 	margin: 0 auto;
 }
 .h1-name {
-	font-size: 40px;
+	font-size: 3vw;
 	margin-top: 85vh;
 	float: left;
+	position: -webkit-sticky;
 	position: sticky;
 	top: 30px;
 	left:50%;
@@ -57,7 +58,7 @@ html {
 	mix-blend-mode: exclusion;
 }
 .h1-name-2 {
-	font-size: 40px;
+	font-size: 3vw;
 	margin-top: 81vh;
 	float: left;
 	position: absolute;
