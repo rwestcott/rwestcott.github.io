@@ -1,0 +1,197 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img {
+	max-width:100%;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+html {
+	background: linear-gradient(#FFFFFF, #D6A4A4);
+	font-family: 'Yatra One', cursive;
+	letter-spacing: 3px;
+}
+
+.site-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.h1-name {
+	font-size: 40px;
+	margin-top: 85vh;
+	float: left;
+	position: sticky;
+	top: 30px;
+	left:50%;
+	transform: translate(-50%, 0);
+	color: lightgreen;
+	mix-blend-mode: exclusion;
+}
+.h1-name-2 {
+	font-size: 40px;
+	margin-top: 81vh;
+	float: left;
+	position: absolute;
+	top: 30px;
+	left:50%;
+	transform: translate(-50%, 0);
+	color: lightgreen;	
+}
+
+.site-header { 
+}
+
+.site-content {
+	padding-top: 50px;
+}
+
+.name {
+	color: black;
+	position: absolute;
+	left: 35%;
+	top: 70%;
+	height: 100vh;
+}
+.about {
+	color: lightgreen;
+	position: fixed;
+	top: 50%;
+	left: 40px;
+	transform-origin: 0 0;
+	transform: rotate(-90deg) translate(-50%, 0);
+}
+.about:hover {
+	border-bottom: solid 5px lightgreen;
+}
+.contact:hover {
+	border-bottom: solid 5px lightgreen;
+}
+.contact {
+	color: lightgreen;
+	
+	position: fixed;
+	top: 50%;
+	right: 40px;
+	transform-origin: 100% 0;
+	transform: rotate(90deg) translate(50%, 0);
+}
+
+.hero-image {
+	background-image: url('../images/img_hero.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+}
+.work img:nth-child(4n) {
+	width: 400px;
+	height: auto;
+}
+
+.work img:nth-child(2n) {
+	margin-left: 300px;
+}
+.work img:nth-child(1n) {
+	margin-right: 300px;
+}
+
+.work img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 90px;
+	
+}
+.site-footer {
+
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+#return-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 50%;
+
+    display: block;
+    text-decoration: none;
+    display: none;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-family: 'Yatra One', sans-serif;
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+}
+#return-to-top:hover i {
+    color: #fff;
+    border-bottom: 3px solid white;
+}
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+

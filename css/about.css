@@ -1,0 +1,74 @@
+html {
+	background-color: #ffe0f5;
+	font-family: 'Yatra One', cursive;
+}
+.site-content {
+	margin-left: 25%;
+}
+.exhibitions {
+	border-bottom: solid 2px black;
+	max-width: 700px;
+	margin-bottom: 500px;
+}
+.exhibitions-info div {
+	float: left;
+	margin-right: 40px;
+}
+
+.exhibitions-info .name {
+	font-weight: bold;
+}
+.harriet-img {
+	margin-top: -350px;
+	margin-bottom: 20px;
+	position: relative;
+	width: 35%;
+	height: auto;
+}
+.about-img {
+	margin-top: 50px;
+	position: relative;
+	left: 50px;
+	width: 90%;
+	height: auto;
+	z-index: 1px;
+}
+.education {
+	border-bottom: solid 2px black;
+	max-width: 700px;
+}
+.education-info div {
+	float: left;
+	margin-right: 40px;
+}
+
+.bio {
+	margin-bottom: 50px;
+}
+.about {
+	color: #ffb219;
+	position: fixed;
+	top: 50%;
+	left: 40px;
+	transform-origin: 0 0;
+	transform: rotate(-90deg) translate(-50%, 0);
+}
+p {
+	font-family: 'Karla', sans-serif;
+}
+
+.about:hover {
+	border-bottom: solid 5px #ffb219;
+}
+.contact:hover {
+	border-bottom: solid 5px #ffb219;
+
+}
+.contact {
+	color: #ffb219;
+	position: fixed;
+	top: 50%;
+	right: 40px;
+	transform-origin: 100% 0;
+	transform: rotate(90deg) translate(50%, 0);
+}

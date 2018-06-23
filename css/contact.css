@@ -1,0 +1,47 @@
+html {
+	background-color: #f9e0ac;
+	font-family: 'Yatra One', cursive;
+	letter-spacing: 3px;
+}
+.site-content {
+	margin-left: 25%;
+}
+
+.contact-info {
+	letter-spacing: 0px;
+	margin-top: 100px;
+}
+.contact-info a {
+	color: black;
+	text-decoration-line: none;
+}
+.contact-info img {
+	width: 40%;
+	float: left;
+	margin-right: 30px;
+}
+p {
+	font-family: 'Karla', sans-serif;
+}
+.about {
+	color: #dd93f2;
+	position: fixed;
+	top: 50%;
+	left: 40px;
+	transform-origin: 0 0;
+	transform: rotate(-90deg) translate(-50%, 0);
+}
+.about:hover {
+	border-bottom: solid 5px #dd93f2;
+}
+.contact:hover {
+	border-bottom: solid 5px #dd93f2;
+}
+.contact {
+	color: #dd93f2;
+	position: fixed;
+	top: 50%;
+	right: 40px;
+	transform-origin: 100% 0;
+	transform: rotate(90deg) translate(50%, 0);
+}
